@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "capture area",
+  "version": "1.0",
+  "description": "",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "system.display",
+    "debugger",
+    "downloads"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistrent": false
+  },
+
+  "browser_action": {
+    "name": "capture area"
+  }
+}
